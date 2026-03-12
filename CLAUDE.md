@@ -215,13 +215,13 @@ rm -rf /tmp/gws-cli-repo
 
 ## Subagent Orchestration
 
-| Subagent | When to Use |
-|----------|-------------|
-| **codebase-explorer** | Before modifying SKILL.md -- understand the workflow structure, `@see` references, and command patterns |
-| **external-context-researcher** | When adding a new workflow that uses a GWS service not yet covered -- research the `gws` CLI documentation for that service |
-| **docs-weaver** | After adding or modifying workflows -- regenerate README.md to stay in sync with SKILL.md |
-| **pre-push-validator** | Before pushing -- verify no credentials leaked and SKILL.md YAML frontmatter is valid |
-| **secrets-env-auditor** | Before any commit -- scan for accidentally included OAuth tokens or service account keys |
+| Subagent | When to Use | Model |
+|----------|-------------|-------|
+| **codebase-explorer** | Before modifying SKILL.md -- understand the workflow structure, `@see` references, and command patterns | sonnet |
+| **external-context-researcher** | When adding a new workflow that uses a GWS service not yet covered -- research the `gws` CLI documentation for that service | sonnet |
+| **docs-weaver** | After adding or modifying workflows -- regenerate README.md to stay in sync with SKILL.md | sonnet |
+| **pre-push-validator** | Before pushing -- verify no credentials leaked and SKILL.md YAML frontmatter is valid | sonnet |
+| **secrets-env-auditor** | Before any commit -- scan for accidentally included OAuth tokens or service account keys | sonnet |
 
 ## GSD + Teams Strategy
 
