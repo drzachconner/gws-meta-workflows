@@ -11,15 +11,6 @@ Six production-ready meta-workflows that chain Google Workspace CLI (`gws`) comm
 5. **email-prompt-injection-scanner** -- Scan inbound emails for hidden agent instructions using Model Armor, quarantine flagged messages
 6. **scheduling-conflict-resolver** -- Extract proposed times from emails, check free/busy, draft reply with available slots
 
-## Workflow Rules
-
-- **ALWAYS pull before working**: Run `git pull --rebase` before making any changes. This is mandatory for multi-machine sync.
-- **ALWAYS commit and push after making changes.** After completing ANY code changes, immediately stage modified files by name, commit with a descriptive message, and push. Every change must end with a successful `git push`.
-- **Never leave files behind.** Before ending any session, run `git status` and confirm zero untracked or modified files.
-- Never use `git add .` or `git add -A` -- always add specific files by name.
-- Commit message format: conventional commits (feat:, fix:, chore:, docs:). Always include `Co-Authored-By: Claude <noreply@anthropic.com>`.
-- **Note**: This is an upstream repo owned by `grandamenium`. Do not push unless you have write access.
-
 ## Tech Stack
 
 - **Skill Definition**: Markdown with YAML frontmatter (SKILL.md) -- Claude Code skill format
