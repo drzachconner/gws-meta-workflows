@@ -260,3 +260,6 @@ The GWS CLI can optionally be exposed as an MCP server, making all its tools ava
 - **Safety defaults** enforced across all workflows (drafts-only, dry-run, field masks, input sanitization)
 - **README.md** with installation instructions and usage overview
 - **SKILL.md** (722 lines) with complete workflow definitions, YAML frontmatter, and `@see` references to dependent skills
+
+## Google Workspace Account
+GWS Profile: `personal`
